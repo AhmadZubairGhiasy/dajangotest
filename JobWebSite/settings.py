@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-3967h+a(vw1x_%24$mt@iqzb%6o0o+h#3nx%13y3azveewe1rk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition
@@ -131,4 +131,5 @@ CSRF_TRUSTED_ORIGINS = ['https://dajangotest.onrender.com']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
